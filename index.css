@@ -1,6 +1,24 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     padding-top: 70px;
+    width: 100%;
+}
+
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+}
+
+.navbar-nav .dropdown-menu {
+    display: none;
+    position: absolute;
+}
+
+.navbar-nav .dropdown:hover .dropdown-toggle::after {
+    transform: rotate(180deg);
 }
 
 /* Hero Section */
