@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TyrePlex</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body class="bg-light min-vh-100">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm px-xl-5 fixed-top">
+        <div class="container-fluid">
+            <!-- Navbar brand (Logo) -->
+            <a class="navbar-brand" href="#">
+                <img src="https://cdn.tyreplex.net/themes/moonlight/images/TP-logo.png?tr=w-150,q-60" alt="Logo"
+                    width="150" height="30" class="d-inline-block align-text-top">
+            </a>
+
+            <div class="d-flex g-2 ">
+                <!-- Profile login -->
+                <form class="d-block d-lg-none me-2">
+                    <a href="#" class="btn btn-outline-primary">
+                        <i class="fas fa-user"></i> Login
+                    </a>
+                </form>
+
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+                    <li class="nav-item  ">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <!-- Login Button with Profile Icon -->
+                <form class="d-none d-lg-block ">
+                    <a href="#" class="btn btn-outline-primary">
+                        <i class="fas fa-user"></i> Login
+                    </a>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container ">
+        <!-- Hero Section -->
+        <div class="container bg-white  p-3 shadow-sm border-1 border rounded">
+            <div class="d-flex flex-column-reverse flex-lg-row justify-content-between">
+
+
+                <!-- Hero Section Left -->
+                <div class="w-100 w-lg-50 h-25 flex-column">
+                    <div class="d-flex align-items-start me-lg-2 ">
+                        <h1 class="fs-4 d-inline-flex flex-wrap">SHREE HEMKUNT TYRES AND SERVICES</h1>
+                        <span class="text-success badge fs-6"><i class="fa-solid fa-circle-check"></i> Verified</span>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                        <p class="badge bg-success">4.9</p>
+                        <ul class="d-flex list-unstyled">
+                            <li><i class="fa-solid fa-star star-yellow"></i></li>
+                            <li><i class="fa-solid fa-star star-yellow"></i></li>
+                            <li><i class="fa-solid fa-star star-yellow"></i></li>
+                            <li><i class="fa-solid fa-star star-yellow"></i></li>
+                            <li><i class="fa-regular fa-star-half-stroke star-yellow"></i></li>
+                        </ul>
+                        <p class="underline-text fw-light fs-6">2278 Reviews</p>
+                        <p class="fs-6 border border-secondary border-1 rounded-2 px-1 text-secondary">Rate</p>
+                    </div>
+                    <div class="pe-4">
+                        <div class="d-flex align-items-start">
+                            <span><i class="fa-solid fa-location-dot text-secondary"></i></span>
+                            <p class="ms-4 fs-6">PLOT NUMBER-09 GROUND FLOOR CISF CAMPUS ROAD, AHINSA KHAND-02
+                                INDIRAPURAM,
+                                Ghaziabad, Uttar Pradesh, 201014</p>
+                        </div>
+                        <div class="d-flex align-items-start">
+                            <span><i class="fa-solid fa-clock text-secondary"></i></span>
+                            <p class="ms-4 fs-6 text-secondary">Open - Monday to Sunday - 10:00AM to 8:00PM</p>
+                        </div>
+                        <button type="button" class="btn btn-outline-danger px-5 py-2">
+                            Get Direction
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Hero Section Right (Carousel) -->
+                <div id="responsiveCarousel" class="carousel slide w-100 w-lg-75 mb-4 mb-lg-0 carousel-relative"
+                    data-bs-ride="carousel">
+                    <button class="carousel-control-prev " type="button" data-bs-target="#responsiveCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon carousel-btn-center" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next " type="button" data-bs-target="#responsiveCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon carousel-btn-center" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+
+
+                    <div class="carousel-inner">
+                        <!-- First Slide -->
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-12 col-md-6 col-lg-6">
+                                    <img src="https://lh3.googleusercontent.com/places/AAcXr8o52JCZ4eDqDhBAQRIDHcYnN1kNMCKBI27KOEuPvQk0C546Zftc9kpHLdW6kmlnbf1gGd7fSGfpctnLspNCfEpye7Rrmwrp094=s1600-w300"
+                                        class="d-block w-100" alt="Slide 3">
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-6 d-none d-md-block">
+                                    <img src="https://lh3.googleusercontent.com/places/AAcXr8ryfQqAWHDmAPXAuK5o1Sk81OiWbLXHHNRm8OTBLFZE41-3arlK-Q7aMXjXp106o8p8Dca6OTnSTynW6ykkg86zy1-j4JRkpXI=s1600-w300"
+                                        class="d-block w-100" alt="Slide 3">
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- Second Slide -->
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-12 col-md-6 col-lg-6">
+                                    <img src="https://lh3.googleusercontent.com/places/AAcXr8o52JCZ4eDqDhBAQRIDHcYnN1kNMCKBI27KOEuPvQk0C546Zftc9kpHLdW6kmlnbf1gGd7fSGfpctnLspNCfEpye7Rrmwrp094=s1600-w300"
+                                        class="d-block w-100" alt="Slide 3">
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-6 d-none d-md-block">
+                                    <img src="https://lh3.googleusercontent.com/places/AAcXr8ryfQqAWHDmAPXAuK5o1Sk81OiWbLXHHNRm8OTBLFZE41-3arlK-Q7aMXjXp106o8p8Dca6OTnSTynW6ykkg86zy1-j4JRkpXI=s1600-w300"
+                                        class="d-block w-100" alt="Slide 3">
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- Customer reviews -->
+            <div class="mt-4">
+                <h4 class="fw-medium fs-6">2278 Google Reviews</h4>
+                <div id="reviewCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner mt-3">
+                        <!-- First Slide -->
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-12 col-md-4 col-lg-3">
+                                    <div class="card p-3 border">
+                                        <div class="d-flex w-100 align-content-start">
+                                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZmVtYWxlJTIwcHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D"
+                                                class="review-user-img" alt="user-image">
+                                            <div class="ms-2">
+                                                <h3 class="fs-6 m-0">Rosy Sharma</h3>
+                                                <small class="text-secondary fw-lighter">22-06-2023</small>
+                                            </div>
+                                        </div>
+                                        <p class="card-text mt-2">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus
+                                            incidunt ut iste ducimus quibusdam ullam illo architecto, laudantium
+                                            corrupti vel, cupiditate similique dolor non velit modi. Nemo, voluptates?
+                                            Maiores, magni!
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- Second card -->
+                                <div class="col-12 col-md-4 col-lg-3 d-none d-md-block">
+                                    <div class="card p-3">
+                                        <div class="d-flex w-100 align-content-start">
+                                            <img src="https://media.sproutsocial.com/uploads/2022/06/profile-picture.jpeg"
+                                                class="review-user-img" alt="user-image">
+                                            <div class="ms-2">
+                                                <h3 class="fs-6 m-0">Vikash Gaikwad</h3>
+                                                <small class="text-secondary fw-lighter">02-07-2023</small>
+                                            </div>
+                                        </div>
+                                        <p class="card-text mt-2">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus
+                                            incidunt ut iste ducimus quibusdam ullam illo architecto, laudantium
+                                            corrupti vel, cupiditate similique dolor non velit modi. Nemo, voluptates?
+                                            Maiores, magni!
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- Third card -->
+                                <div class="col-12 col-md-4 col-lg-3 d-none d-md-block">
+                                    <div class="card p-3">
+                                        <div class="d-flex w-100 align-content-start">
+                                            <img src="https://wallpapers.com/images/hd/cool-profile-pictures-panda-man-gsl2ntkjj3hrk84s.jpg"
+                                                class="review-user-img" alt="user-image">
+                                            <div class="ms-2">
+                                                <h3 class="fs-6 m-0">Rony Shrivastava</h3>
+                                                <small class="text-secondary fw-lighter">13-07-2023</small>
+                                            </div>
+                                        </div>
+                                        <p class="card-text mt-2">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus
+                                            incidunt ut iste ducimus quibusdam ullam illo architecto, laudantium
+                                            corrupti vel, cupiditate similique dolor non velit modi. Nemo, voluptates?
+                                            Maiores, magni!
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- Fourth card -->
+                                <div class="col-12 col-lg-3 d-none d-lg-block">
+                                    <div class="card p-3">
+                                        <div class="d-flex w-100 align-content-start">
+                                            <img src="https://miro.medium.com/v2/resize:fit:785/0*Ggt-XwliwAO6QURi.jpg"
+                                                class="review-user-img" alt="user-image">
+                                            <div class="ms-2">
+                                                <h3 class="fs-6 m-0">Dr. Arvind Kumar</h3>
+                                                <small class="text-secondary fw-lighter">22-07-2023</small>
+                                            </div>
+                                        </div>
+                                        <p class="card-text mt-2">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus
+                                            incidunt ut iste ducimus quibusdam ullam illo architecto, laudantium
+                                            corrupti vel, cupiditate similique dolor non velit modi. Nemo, voluptates?
+                                            Maiores, magni!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-12 col-md-4 col-lg-3">
+                                    <div class="card p-3 border">
+                                        <div class="d-flex w-100 align-content-start">
+                                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZmVtYWxlJTIwcHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D"
+                                                class="review-user-img" alt="user-image">
+                                            <div class="ms-2">
+                                                <h3 class="fs-6 m-0">Rosy Sharma</h3>
+                                                <small class="text-secondary fw-lighter">22-06-2023</small>
+                                            </div>
+                                        </div>
+                                        <p class="card-text mt-2">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus
+                                            incidunt ut iste ducimus quibusdam ullam illo architecto, laudantium
+                                            corrupti vel, cupiditate similique dolor non velit modi. Nemo, voluptates?
+                                            Maiores, magni!
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- Second card -->
+                                <div class="col-12 col-md-4 col-lg-3 d-none d-md-block">
+                                    <div class="card p-3">
+                                        <div class="d-flex w-100 align-content-start">
+                                            <img src="https://media.sproutsocial.com/uploads/2022/06/profile-picture.jpeg"
+                                                class="review-user-img" alt="user-image">
+                                            <div class="ms-2">
+                                                <h3 class="fs-6 m-0">Vikash Gaikwad</h3>
+                                                <small class="text-secondary fw-lighter">02-07-2023</small>
+                                            </div>
+                                        </div>
+                                        <p class="card-text mt-2">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus
+                                            incidunt ut iste ducimus quibusdam ullam illo architecto, laudantium
+                                            corrupti vel, cupiditate similique dolor non velit modi. Nemo, voluptates?
+                                            Maiores, magni!
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- Third card -->
+                                <div class="col-12 col-md-4 col-lg-3 d-none d-md-block">
+                                    <div class="card p-3">
+                                        <div class="d-flex w-100 align-content-start">
+                                            <img src="https://wallpapers.com/images/hd/cool-profile-pictures-panda-man-gsl2ntkjj3hrk84s.jpg"
+                                                class="review-user-img" alt="user-image">
+                                            <div class="ms-2">
+                                                <h3 class="fs-6 m-0">Rony Shrivastava</h3>
+                                                <small class="text-secondary fw-lighter">13-07-2023</small>
+                                            </div>
+                                        </div>
+                                        <p class="card-text mt-2">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus
+                                            incidunt ut iste ducimus quibusdam ullam illo architecto, laudantium
+                                            corrupti vel, cupiditate similique dolor non velit modi. Nemo, voluptates?
+                                            Maiores, magni!
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- Fourth card -->
+                                <div class="col-12 col-lg-3 d-none d-lg-block">
+                                    <div class="card p-3">
+                                        <div class="d-flex w-100 align-content-start">
+                                            <img src="https://miro.medium.com/v2/resize:fit:785/0*Ggt-XwliwAO6QURi.jpg"
+                                                class="review-user-img" alt="user-image">
+                                            <div class="ms-2">
+                                                <h3 class="fs-6 m-0">Dr. Arvind Kumar</h3>
+                                                <small class="text-secondary fw-lighter">22-07-2023</small>
+                                            </div>
+                                        </div>
+                                        <p class="card-text mt-2">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus
+                                            incidunt ut iste ducimus quibusdam ullam illo architecto, laudantium
+                                            corrupti vel, cupiditate similique dolor non velit modi. Nemo, voluptates?
+                                            Maiores, magni!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Carousel Controls -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#reviewCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#reviewCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Brand Section -->
+        <div class="container mt-4 border shadow-sm bg-white rounded p-3">
+            <h4 class="fw-semibold fs-6">Deals in</h4>
+
+            <div class="scrollable-cards p-0 mt-3">
+                <div class="card brand-card shadow-sm border border-1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ1evlXam3x0xJRd6ctpU5kySD6NvUI-PZHg&s"
+                        class="card-img-top border-bottom" alt="Image 1">
+                    <div class="card-body">
+                        <h2 class="card-title text-center text-uppercase">MRF</h2>
+                    </div>
+                </div>
+                <div class="card brand-card shadow-sm border border-1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS57pHnjMcb8dvXB8SqScKgyChVSZBvFzrbbA&s"
+                        class="card-img-top border-bottom" alt="Image 2">
+                    <div class="card-body">
+                        <h2 class="card-title text-center text-uppercase">CEAT</h2>
+                    </div>
+                </div>
+                <div class="card brand-card shadow-sm border border-1">
+                    <img src="data:image/jpeg;base64,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"
+                        class="card-img-top border-bottom object-fit-contain" alt="Image 3">
+                    <div class="card-body">
+                        <h2 class="card-title text-center text-uppercase">Appolo</h2>
+                    </div>
+                </div>
+                <div class="card brand-card shadow-sm border border-1">
+                    <img src="https://e7.pngegg.com/pngimages/134/71/png-clipart-car-goodyear-tire-and-rubber-company-dunlop-tyres-hankook-tire-car-text-logo.png"
+                        class="card-img-top border-bottom object-fit-contain" alt="Image 4">
+                    <div class="card-body">
+                        <h2 class="card-title text-center text-uppercase">Good year</h2>
+                    </div>
+                </div>
+                <div class="card brand-card shadow-sm border border-1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwz7sc-MEkgcck6KInZQ5iZYcaCxXMs_PY2Q&s"
+                        class="card-img-top border-bottom" alt="Image 5">
+                    <div class="card-body">
+                        <h2 class="card-title text-center  text-uppercase">TVS</h2>
+                    </div>
+                </div>
+                <div class="card brand-card shadow-sm border border-1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThPqsWJxwD1b2agk5M73cvMm-KP2knNphgzA&s"
+                        class="card-img-top border-bottom" alt="Image 6">
+                    <div class="card-body">
+                        <h2 class="card-title text-center  text-uppercase">Nokian</h2>
+                    </div>
+                </div>
+                <div class="card brand-card shadow-sm border border-1">
+                    <img src="https://img.freepik.com/premium-vector/tire-brand-logo-design-royal-tire-design-with-additional-crown_613566-2.jpg"
+                        class="card-img-top border-bottom" alt="Image 7">
+                    <div class="card-body">
+                        <h2 class="card-title text-center  text-uppercase">Royal</h2>
+                    </div>
+                </div>
+                <div class="card brand-card shadow-sm border border-1">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAWUAAACNCAMAAABYO5vSAAAA6lBMVEX///8AdzQfoi6Xvw6TvQCQuwAAcikAnRkAcSYNnyKVvgCHx40AbyLA2IJ/r4+53rzY5rGbzp+WuqDI3JevzroAdC7G25Dp8dLD2YmUzJiOtpuNyZKHs5W00GW4024Abh4AmgD0+Oj6/PMAaxTa7dz1+ve81XZpu3Cn1avh7MT3+u3v+PBetmbO4J9gnnVRslrM58/f8OGw2rRFkF+jxjc1qUG61MQ4qkTG48h0v3vb6eDk7sulx7GjxzOoyUbu9N3V5awig0jK3tJMk2WvzlluqILi7OYxhk9UtF0AYgBcmnAXfD5Ik2N7wYGwdhd2AAAP2ElEQVR4nO1da1vbOBMlJI5xCLdCgJaFhEAoIU0plGsLhLZp6W6X//93Nh45snwbHSeSn/d5H59Pu1076h7Lo6Mzo/HCQokSJUqUKFGiRIkSJUqUKFGixP8ruqP+83B7d2V27EaxyQzWu7i7PH27PAf2otjgBvv1fevh3eoc+CuG2Rg+Wz95rDlOzSSc/YzBBmuv1547gWcO7ocshrdWvy21282lpboxND/PQPHh8GrCb6NqGLXUuTw4Pe+43qJpeHupgz28HDXrrYph1Fdzc7wzdswz7MPpJwf79N51jTPsw11LDvb9Y7tpnGEfzYe8HD85Vij2WR7FBzs+75ifxQHLx/HBvnw+skLxBO3vuTju7lvjeMJybLDBfccSxT7Lg+hgvZ/WOK5UjmKD8Viv1axxXK02ooOtebbmMSE62E29bo3jSVzOQ/KJY5HjamMcGezV4kSe4Dwy2OqRRY4rrRwSo/tkcyJPJMaKMljv3M6iN4X3qg72o2mT5Er9J0zy2aNdkqu1deX/+9pqtJiE5VNlsBeb0WKCpTfwTK7aW/YEnK/Fkbzo3oWD/bFMcqV9g7JseyZPWD6Tg93aJnmxcyEHsz2TJyx/AUkeWye5WpWDfbBO8mJHDvZxyTbJlXoPI3nbqrogNJ6mg23YXfgI19PB3rStk1z5hpG8Y5/kau0gGOy4AJK998FgX6xKOIHWD4xl6yufz/IwGOzaPsmL3ttgsBd7Gz6JOuZ7bhYwlaVXVES8kF7RQwHxAvSKzgpY+aRXNCiC5KlX1LO7GwmAeUUnhbDc6NJgr/b1xQQdseqv2tcXFdArOisiXlQDIVfMVA4kRq+IeDGZy8hU3i1mKguv6G0hU9kT6ah3hUzl1gvCcgH6YoLaNg1WzFQOvKJKAQIDTEetFxMwhFe0VgzLwiu6KSZgQF7ReI653Jig5jh+rruh+Rlnxx9snr11jgckvKKP06lsd0ojXlFXTuV4wghBt9s9OxztrD+vjB8dNinr+BKjR0wpTk4KsjYtaenSJI5v6Vpa9afbPtyYxPEztKCOfukv709ZbjzOOXB3ZzieMJ017f1L7ohll/uVXnoKxVtkH80Ub8WE9/x/lgGjCRuTOD6H70cTuFyKZekzzIX+QXrqUHhFQiyfcz/wKTUwuO+5e6a4uA1uvvX/bXU63drAZMuLcCpDEkO+5Ok1KfnR3UzjuXbi/zeKBt49d3vq+tjhyrEk5N5djPBN8gAakznwKzShWv/oLz8Mw3JKTcps6B4kZQt5RQOKBh5L2XJyffS8T8CogzCTSCMMprvrFmhM5sH3UL4svdNf3g9ZPjT3l+gnZjM9wyAs33G3JlWIe47sYE+VKjBaKCUROXKfMN6E+53mlv7yoeQj8BnMYBRXG/QMN4gIXmIkSO4sA+MNPqiBhryih+lctiwxkHTUwZTlMJVhBPG8AD3De6LQ48JkQmJAAm4tWs5IXpEkwobE+KZIDOBNu5pOOjMSI8RzhObGlf9nt6EAyEIskeJdAwKu9z7+aPw/lVoLzn3mgJqB0V/dDSXGUH91LlypQaNBpcti8WNF2WWEZUjA3cUrwYRXFO4aDPzPxPArXPyQuiIbEiNAX53MJBMvAIkR8ewQAddLljR6fiTvTaebZYmBeEV2JIZAZPHzvSKx4eADrSIxvEVAwN0tJpWfe7lQoMQA0lHPUmLUjP9VVhQ5R+moU8Ey6GK458BmIrWk0fWfzlZREgNIR8n99dwuRhJqyKj5dUViw+Fy5IWpFETAfUqZyP6t/qof7q8tSAwlM454RdL2FDtgozhUWCav6DdxcM3dIyUGIuD2smpz/f/4TysHDTnRU6xUZG2NLk9m0Q0jhhDjwsVgZUPgYiAC7uI6y3AmNypcniy4GIrEANbWLigxVg6iOFnZXE8cEkkgZJlKl0U0kPUoqdgTQQUQcBuZRebCK5ISY5ZDYhooSRhkbQ13aMmTNSrSDu85Vd30V1j2xfgxIDHe+yx3TrlLCNLjTGPZ139f2pLlrSw8sLO8l3nflrL4IV5RmPNjJcZhemrQuWJ/XIkYVLosokEncXZJxbXvwLFXEE650xL0HMPp1mpm4W92b/z978wblVJdZPu+LSUGS1g/IwHr7HJ3Kc+GxLjYcHS4W3odRMAN+NMSJBXfAEUCfJLjAapLQrbv+5iLMcys2ODuUp4NvSkUDTQSowMIuEvNSVc34hVlQxOxV6Hi8jawtkYDZyYyS7xqZ8xdB6GpGnpFGonR0Qq4wW9tLtu/DKj11OyNPyOZb2j7LnngJcZjVm66xnjSoREVvCmAxLjUCjj9IcGYV5QNzd74D/ATUOnyCHQxsupiHG4roxSGKV4Rlu/PQtLjTGHZP+b+Cyh44ffGWI1dPq+ITZRkSIyGM2ZuGik3kVcUpKP0AiIbCY8zDVGviMERG1KRX8C8oiEmMb46jSiEXh5zUaYbmfOKV5TrxHIU2LFt8ooQgfCHHQyUGHm8Il5irI/3ozg42R1+ZdOEZ5EzFBS+l/USg0WGNZRA1CvKhiakghIDMEmepJAznCjpR2q5hN93TkEzqwOLDr1l9Ng21RX9mFtiAL/gPyrgry4nnNlESbweQ5Qui8xqagcWAG/hs/G//cv/6DnShFRoKiN1RV0riZLDlXitXM3fIgqviJammYBWi1Lpcg84f8aH1AF0gi2fV2QsUXL4/JSsR6w9L0ivaGaJ0QOnMpUufwEEAp/hxyQGkodZN5wo6e83nLRWMVS6LJLTndklxjEWM6hy6QYRCOxooMQAvCK5bzCWKNnZTJnKqlfkzfHjaxDNVLkEHCgx42Lk8ooMSozRSYJnikcUV73f8/z0K1KNT5VLP4txMfKlo5TOFQZwth+TGIpXhNS8ZeMcWAGpcumbniCNxEA4rrT4jY2AtVqMfuSQCcWjnkg1zSwxCANgKpPnN7eLgfggWOly6DQ09BfnQ/dKiRqqV4QUIjPQr4Dk+SEc8QdOMYmRyysyXO5JULqaKKXLc0gMATYVRc8xUrrMMcSOg0kMpHR50+yJkhjCYkTFK1rU3qbDvSY0R0uXs2HGxcjlFbESo78Zx/C5v8MlSQhhowI64UbndmZ2MRRoWh65oFdkRGIg6ahHzMUYp7QHdia7jxVNQcY0Px54RcTyfBKDoDkuT4Ic4EjzsiMcV5DS5fB0FC8xMrNRbKZkQcYMUbpsQmIIfGJDM9UVAV6RJlECuRhQ6XK4PnGXMX0dMrtWCwSTWXhFuMQ4ZQ+qLfDNYkTpMiLkDCRKEK/oq5QYbKKEaxyl2c2Ix1hTSpf1EqP3we3oZvz77NBMXhHAkWY/gUmMpTyly7yL8ZxZi6H1P0SSQPGK9BKDEiJ8hfME2XM5WrrMsGxEYgBe0QomMVYYlvm3IHCjqGZjT3802EdQK6tLW11kxgzyiv4qSmIAXpEsXebf+yemT4CGZUreNijqC6/olb08LDHkS2MmuMtaAekg/ce5JQbWWKOJCDkZXVmJwbWa00QMCjZiYxkGzWwolVmaKyeTPmM2C69oXomBJUoQr6gb3TVkgW0dpXGZiGXhFbkyaGYickSErwxdyEpQidLlghIlrY+av+OC4hXNVu7p86fLyVLEoKh/AbgYMcI0b2N6gkqULiMzkf1xTGIgLRElfbNJjEbNGeuq8Wn1o0cRlC5zFw+ioVa7Gb9IPR0FekWtf9nfxiQG4hVtYxJj30lD43E81HvStHCSVySOubNHg+PdR1y2bHEhPUFFgQYoXdZMQ6w5KOIVybpXXmKMdpIYnWHtB2oy6t/rJcZlfD3r6DaKy8kVEPWKjLgYfJ2dQOgVae21GRHEJP8fqa6IFw7J7iPanWIyQUVCG5iJJhIlkFdkL1EyBSVvySsSS1Xe7iOebhOTWAFF8hYIqibKPZHS5UObiRKCEDGKV8RLjBRl5uqM0niCiryiAcIR+7OgxMjjFVk4tCog9pbKMXe2FmOQJhm05x9iwRz2ivisKHAmpZKzdJnKqywg6EKieEVsAEhv464NzffRdhpg6bIZFyOPV2S2FkNiapg6snSZb3CWkBgCrPjzEUlQUUwCvCIjEiNX6bIdiTGSmxn/34RXxEqMvXTPmH80EwwiLPt/AhQem3AxoC51oQmkvzY/vso6RypdFq9zTokREKez9NUEFVpXZCJRgpQuywyzxrycDeHXDOiYu+irxXvz6Rwv6vqiLagJKlG6DBQimkiUIF6RzDNFPlRmBqMr5dDq88J0ZWMbnHGZad2bKRNUqFdkJFGSq3TZeOutsxO1hJkkhvCKsO4jKaFZ28bhNrhSlC7r33czLkaeY+6GJcbOQbSulk5HbeglBtdj3NV14pq+CCQxAK/ISKIE+bCDLF02eqLE/8CzynEQ9emVztHgLBGadb5RkKCixQ/YUvD5OoMuRtgSEbgYQbe/e5XsJU77a/FG8xKDSf4joZmaWwvPD/GKTJR7Iv3TDHb37I36w5Nqert2ikc9oIfqLUuy1jeipySeY0EuBhKWw3TUeH02PE+wuXIwfqrW/G8PJAkO35TgDNoaB10l5zJ799rapReIGGBL0Xq5yW6Ws3Xzj7FCROWYe0pLohzgv+wgnChRurzocuBJnjDI3u362W+hRZD3PbvHjg/szCpQhc80bzEKIWBOC/pGyR3+vs8NqBVgQd/nEscIi/k+V2CsYluK+QGQHO3aaw3Bjud3ISQHqvrfQj5qtAR9N7GYgBHkugoheWpFF8Exllgt6Ftzwfe5Mj7zYhhBmT/gFRnAEvJ9rkI+ZiunchEfs5VeFHLM3QDLUOtQribZGCjjt1DQZ9CmVQhA6fL8aGIdnbcLYFnuKjOyIGYxzVwhLRHnBdoCfp6PzaGQNpTGojACmSEASpfnxhH4zYjMLnwGSV6fDmafY6VqqYDPX7fBDvDdAkgOqzzsSww3tK7t70mWgEwUYWRdYtTCfn6pFbBGoTh2v7D08xyoQ5+y9cFUfhsiWUnZ3tmWGN5tqKswb3gekr/B/d9te0U11bTmzkCaIVkZzLZXVH/Bm+wf2GU5eqTVslfkRmr2LXtFbb6EPwrucJkBkqMNxs+tktyJdgG06xUdQRvrKWySXKvGkuI2OfYWY8lEm3uSpRZwwiFERqNfIxw78SIaTaOFuTjuvMaiJNYKYCa0jn7m++7JV1sspx2bSv8ksBGOPyTytda8ovrRj7wfCbTjFTWc2knK0bSMitl5KXbd+5Rzl3a8olaz/TP/hxi58+szMuz3vH5OPThlwSvy3M7vy9SSCqAlYl6G6+2jz/zXYzLwlNIiZ3b4hRhPu/2ss2kfXM8YRLb6fO8u6//6R3vJHJrNdrv+8tfNjJ+hSnR7ArGdxObweX2HrQE73ZgNb5PYOL1cO2bLgt7MiHdJvHl4uPli4ZvwJUqUKFGiRIkSJUqUKFGiRIkS/yv4DypN/A63z/wQAAAAAElFTkSuQmCC"
+                        class="card-img-top object-fit-contain border-bottom" alt="Image 8">
+                    <div class="card-body">
+                        <h2 class="card-title text-center  text-uppercase">bkt</h2>
+                    </div>
+                </div>
+                <div class="card brand-card shadow-sm border border-1">
+                    <img src="https://c8.alamy.com/comp/D12XD8/company-logo-of-the-french-tyre-manufacturer-michelin-with-seat-in-D12XD8.jpg"
+                        class="card-img-top object-fit-contain border-bottom" alt="Image 9">
+                    <div class="card-body">
+                        <h2 class="card-title text-center  text-uppercase">michelin</h2>
+                    </div>
+                </div>
+                <div class="card brand-card shadow-sm border border-1">
+                    <img src="https://car-logos.net/wp-content/uploads/2023/04/jk-tyre-logo-present-scaled.webp"
+                        class="card-img-top object-fit-contain border-bottom" alt="Image10">
+                    <div class="card-body">
+                        <h2 class="card-title text-center text-uppercase">jk tyre</h2>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Product Section -->
+
+        <div class="container my-4 px-0">
+            <h4 class="fw-semibold fs-6">Tyres sold by this Dealer</h4>
+
+            <!-- Filters Select -->
+            <div class="row justify-content-end">
+                <div class="col-auto">
+                    <select class="form-select mb-2">
+                        <option value="" disabled selected hidden>Filter By</option>
+                        <option value="1">Option 1</option>
+                        <option value="2">Option 2</option>
+                        <option value="3">Option 3</option>
+                    </select>
+                </div>
+                <div class="col-auto">
+                    <select class="form-select">
+                        <option value="" disabled selected hidden>Most Popular</option>
+                        <option value="1">Option A</option>
+                        <option value="2">Option B</option>
+                        <option value="3">Option C</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row ">
+                <!-- Card 1 -->
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4">
+                    <div class="card h-100 overflow-hidden border porduct-card-hover">
+                        <div>
+                            <!-- Badge -->
+                            <div class="product-card-badge-wrapper">
+                                <small class="badge text-end rounded-0 m-0 bg-warning text-dark fw-light"> <i
+                                        class="fa-solid fa-shield"></i> 5 Year
+                                    Warranty</small>
+                            </div>
+                            <!-- Logo and Detail -->
+                            <div class="d-flex flex-column">
+                                <div class="tyre-logo-wrapper">
+                                    <img src="https://logowik.com/content/uploads/images/apollo-tyres-old2315.logowik.com.webp"
+                                        class="w-100 object-fit-contain" alt="Card Image">
+                                </div>
+                                <small class="text-uppercase ps-2 fw-medium">Amazer 4G Life</small>
+                                <small class="text-secondary ps-2 mt-0 small-text">145/80 R12</small>
+                            </div>
+                        </div>
+
+                        <div class="d-flex w-100 justify-content-between">
+                            <!-- Reviews & Price -->
+                            <div class="mb-2 ps-2">
+                                <div class="d-flex mt-3">
+                                    <p class="badge product-card-badge rounded-1 px-2"><i class="fa-solid fa-star"></i>
+                                        4</p>
+                                    <small class="text-secondary ms-1 small-text">320 Reviews</small>
+                                </div>
+                                <div class="">
+                                    <h4 class="fs-6">₹ 3,136</h4>
+                                    <p class="offer-text">Offer Available</p>
+                                </div>
+                                <small class="text-secondary fw-medium small-text">Tube Type</small>
+                            </div>
+                            <!-- Tyre Image -->
+                            <div class="w-50 position-relative">
+                                <div class="w-25 tyre-img-wrapper">
+                                    <img src="https://cdn.tyreplex.net/uploads/images/tyre_model/original/apollo/amazer-4g-life/img_main.png?v=2385909&tr=w-178,q-78,q-60"
+                                        class="object-fit-cover" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4">
+                    <div class="card h-100 overflow-hidden border porduct-card-hover">
+                        <div>
+                            <!-- Badge -->
+                            <div class="product-card-badge-wrapper">
+                                <small class="badge text-end rounded-0 m-0 bg-warning text-dark fw-light"> <i
+                                        class="fa-solid fa-shield"></i> 5 Year
+                                    Warranty</small>
+                            </div>
+                            <!-- Logo and Detail -->
+                            <div class="d-flex flex-column">
+                                <div class="tyre-logo-wrapper">
+                                    <img src="https://logowik.com/content/uploads/images/apollo-tyres-old2315.logowik.com.webp"
+                                        class="w-100 object-fit-contain" alt="Card Image">
+                                </div>
+                                <small class="text-uppercase ps-2 fw-medium">Amazer 4G Life</small>
+                                <small class="text-secondary ps-2 mt-0 small-text">145/80 R12</small>
+                            </div>
+                        </div>
+
+                        <div class="d-flex w-100 justify-content-between">
+                            <!-- Reviews & Price -->
+                            <div class="mb-2 ps-2">
+                                <div class="d-flex mt-3">
+                                    <p class="badge product-card-badge rounded-1 px-2"><i class="fa-solid fa-star"></i>
+                                        4</p>
+                                    <small class="text-secondary ms-1 small-text">320 Reviews</small>
+                                </div>
+                                <div class="">
+                                    <h4 class="fs-6">₹ 3,136</h4>
+                                    <p class="offer-text">Offer Available</p>
+                                </div>
+                                <small class="text-secondary fw-medium small-text">Tube Type</small>
+                            </div>
+                            <!-- Tyre Image -->
+                            <div class="w-50 position-relative">
+                                <div class="w-25 tyre-img-wrapper">
+                                    <img src="https://cdn.tyreplex.net/uploads/images/tyre_model/original/apollo/amazer-4g-life/img_main.png?v=2385909&tr=w-178,q-78,q-60"
+                                        class="object-fit-cover" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4">
+                    <div class="card h-100 overflow-hidden border porduct-card-hover">
+                        <div>
+                            <!-- Badge -->
+                            <div class="product-card-badge-wrapper">
+                                <small class="badge text-end rounded-0 m-0 bg-warning text-dark fw-light"> <i
+                                        class="fa-solid fa-shield"></i> 5 Year
+                                    Warranty</small>
+                            </div>
+                            <!-- Logo and Detail -->
+                            <div class="d-flex flex-column">
+                                <div class="tyre-logo-wrapper">
+                                    <img src="https://logowik.com/content/uploads/images/apollo-tyres-old2315.logowik.com.webp"
+                                        class="w-100 object-fit-contain" alt="Card Image">
+                                </div>
+                                <small class="text-uppercase ps-2 fw-medium">Amazer 4G Life</small>
+                                <small class="text-secondary ps-2 mt-0 small-text">145/80 R12</small>
+                            </div>
+                        </div>
+
+                        <div class="d-flex w-100 justify-content-between">
+                            <!-- Reviews & Price -->
+                            <div class="mb-2 ps-2">
+                                <div class="d-flex mt-3">
+                                    <p class="badge product-card-badge rounded-1 px-2"><i class="fa-solid fa-star"></i>
+                                        4</p>
+                                    <small class="text-secondary ms-1 small-text">320 Reviews</small>
+                                </div>
+                                <div class="">
+                                    <h4 class="fs-6">₹ 3,136</h4>
+                                    <p class="offer-text">Offer Available</p>
+                                </div>
+                                <small class="text-secondary fw-medium small-text">Tube Type</small>
+                            </div>
+                            <!-- Tyre Image -->
+                            <div class="w-50 position-relative">
+                                <div class="w-25 tyre-img-wrapper">
+                                    <img src="https://cdn.tyreplex.net/uploads/images/tyre_model/original/apollo/amazer-4g-life/img_main.png?v=2385909&tr=w-178,q-78,q-60"
+                                        class="object-fit-cover" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4">
+                    <div class="card h-100 overflow-hidden border porduct-card-hover">
+                        <div>
+                            <!-- Badge -->
+                            <div class="product-card-badge-wrapper">
+                                <small class="badge text-end rounded-0 m-0 bg-warning text-dark fw-light"> <i
+                                        class="fa-solid fa-shield"></i> 5 Year
+                                    Warranty</small>
+                            </div>
+                            <!-- Logo and Detail -->
+                            <div class="d-flex flex-column">
+                                <div class="tyre-logo-wrapper">
+                                    <img src="https://logowik.com/content/uploads/images/apollo-tyres-old2315.logowik.com.webp"
+                                        class="w-100 object-fit-contain" alt="Card Image">
+                                </div>
+                                <small class="text-uppercase ps-2 fw-medium">Amazer 4G Life</small>
+                                <small class="text-secondary ps-2 mt-0 small-text">145/80 R12</small>
+                            </div>
+                        </div>
+
+                        <div class="d-flex w-100 justify-content-between">
+                            <!-- Reviews & Price -->
+                            <div class="mb-2 ps-2">
+                                <div class="d-flex mt-3">
+                                    <p class="badge product-card-badge rounded-1 px-2"><i class="fa-solid fa-star"></i>
+                                        4</p>
+                                    <small class="text-secondary ms-1 small-text">320 Reviews</small>
+                                </div>
+                                <div class="">
+                                    <h4 class="fs-6">₹ 3,136</h4>
+                                    <p class="offer-text">Offer Available</p>
+                                </div>
+                                <small class="text-secondary fw-medium small-text">Tube Type</small>
+                            </div>
+                            <!-- Tyre Image -->
+                            <div class="w-50 position-relative">
+                                <div class="w-25 tyre-img-wrapper">
+                                    <img src="https://cdn.tyreplex.net/uploads/images/tyre_model/original/apollo/amazer-4g-life/img_main.png?v=2385909&tr=w-178,q-78,q-60"
+                                        class="object-fit-cover" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 5 -->
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4">
+                    <div class="card h-100 overflow-hidden border porduct-card-hover">
+                        <div>
+                            <!-- Badge -->
+                            <div class="product-card-badge-wrapper">
+                                <small class="badge text-end rounded-0 m-0 bg-warning text-dark fw-light"> <i
+                                        class="fa-solid fa-shield"></i> 5 Year
+                                    Warranty</small>
+                            </div>
+                            <!-- Logo and Detail -->
+                            <div class="d-flex flex-column">
+                                <div class="tyre-logo-wrapper">
+                                    <img src="https://logowik.com/content/uploads/images/apollo-tyres-old2315.logowik.com.webp"
+                                        class="w-100 object-fit-contain" alt="Card Image">
+                                </div>
+                                <small class="text-uppercase ps-2 fw-medium">Amazer 4G Life</small>
+                                <small class="text-secondary ps-2 mt-0 small-text">145/80 R12</small>
+                            </div>
+                        </div>
+
+                        <div class="d-flex w-100 justify-content-between">
+                            <!-- Reviews & Price -->
+                            <div class="mb-2 ps-2">
+                                <div class="d-flex mt-3">
+                                    <p class="badge product-card-badge rounded-1 px-2"><i class="fa-solid fa-star"></i>
+                                        4</p>
+                                    <small class="text-secondary ms-1 small-text">320 Reviews</small>
+                                </div>
+                                <div class="">
+                                    <h4 class="fs-6">₹ 3,136</h4>
+                                    <p class="offer-text">Offer Available</p>
+                                </div>
+                                <small class="text-secondary fw-medium small-text">Tube Type</small>
+                            </div>
+                            <!-- Tyre Image -->
+                            <div class="w-50 position-relative">
+                                <div class="w-25 tyre-img-wrapper">
+                                    <img src="https://cdn.tyreplex.net/uploads/images/tyre_model/original/apollo/amazer-4g-life/img_main.png?v=2385909&tr=w-178,q-78,q-60"
+                                        class="object-fit-cover" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 6 -->
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4">
+                    <div class="card h-100 overflow-hidden border porduct-card-hover">
+                        <div>
+                            <!-- Badge -->
+                            <div class="product-card-badge-wrapper">
+                                <small class="badge text-end rounded-0 m-0 bg-warning text-dark fw-light"> <i
+                                        class="fa-solid fa-shield"></i> 5 Year
+                                    Warranty</small>
+                            </div>
+                            <!-- Logo and Detail -->
+                            <div class="d-flex flex-column">
+                                <div class="tyre-logo-wrapper">
+                                    <img src="https://logowik.com/content/uploads/images/apollo-tyres-old2315.logowik.com.webp"
+                                        class="w-100 object-fit-contain" alt="Card Image">
+                                </div>
+                                <small class="text-uppercase ps-2 fw-medium">Amazer 4G Life</small>
+                                <small class="text-secondary ps-2 mt-0 small-text">145/80 R12</small>
+                            </div>
+                        </div>
+
+                        <div class="d-flex w-100 justify-content-between">
+                            <!-- Reviews & Price -->
+                            <div class="mb-2 ps-2">
+                                <div class="d-flex mt-3">
+                                    <p class="badge product-card-badge rounded-1 px-2"><i class="fa-solid fa-star"></i>
+                                        4</p>
+                                    <small class="text-secondary ms-1 small-text">320 Reviews</small>
+                                </div>
+                                <div class="">
+                                    <h4 class="fs-6">₹ 3,136</h4>
+                                    <p class="offer-text">Offer Available</p>
+                                </div>
+                                <small class="text-secondary fw-medium small-text">Tube Type</small>
+                            </div>
+                            <!-- Tyre Image -->
+                            <div class="w-50 position-relative">
+                                <div class="w-25 tyre-img-wrapper">
+                                    <img src="https://cdn.tyreplex.net/uploads/images/tyre_model/original/apollo/amazer-4g-life/img_main.png?v=2385909&tr=w-178,q-78,q-60"
+                                        class="object-fit-cover" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 7 -->
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4">
+                    <div class="card h-100 overflow-hidden border porduct-card-hover">
+                        <div>
+                            <!-- Badge -->
+                            <div class="product-card-badge-wrapper">
+                                <small class="badge text-end rounded-0 m-0 bg-warning text-dark fw-light"> <i
+                                        class="fa-solid fa-shield"></i> 5 Year
+                                    Warranty</small>
+                            </div>
+                            <!-- Logo and Detail -->
+                            <div class="d-flex flex-column">
+                                <div class="tyre-logo-wrapper">
+                                    <img src="https://logowik.com/content/uploads/images/apollo-tyres-old2315.logowik.com.webp"
+                                        class="w-100 object-fit-contain" alt="Card Image">
+                                </div>
+                                <small class="text-uppercase ps-2 fw-medium">Amazer 4G Life</small>
+                                <small class="text-secondary ps-2 mt-0 small-text">145/80 R12</small>
+                            </div>
+                        </div>
+
+                        <div class="d-flex w-100 justify-content-between">
+                            <!-- Reviews & Price -->
+                            <div class="mb-2 ps-2">
+                                <div class="d-flex mt-3">
+                                    <p class="badge product-card-badge rounded-1 px-2"><i class="fa-solid fa-star"></i>
+                                        4</p>
+                                    <small class="text-secondary ms-1 small-text">320 Reviews</small>
+                                </div>
+                                <div class="">
+                                    <h4 class="fs-6">₹ 3,136</h4>
+                                    <p class="offer-text">Offer Available</p>
+                                </div>
+                                <small class="text-secondary fw-medium small-text">Tube Type</small>
+                            </div>
+                            <!-- Tyre Image -->
+                            <div class="w-50 position-relative">
+                                <div class="w-25 tyre-img-wrapper">
+                                    <img src="https://cdn.tyreplex.net/uploads/images/tyre_model/original/apollo/amazer-4g-life/img_main.png?v=2385909&tr=w-178,q-78,q-60"
+                                        class="object-fit-cover" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 8 -->
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4">
+                    <div class="card h-100 overflow-hidden border porduct-card-hover">
+                        <div>
+                            <!-- Badge -->
+                            <div class="product-card-badge-wrapper">
+                                <small class="badge text-end rounded-0 m-0 bg-warning text-dark fw-light"> <i
+                                        class="fa-solid fa-shield"></i> 5 Year
+                                    Warranty</small>
+                            </div>
+                            <!-- Logo and Detail -->
+                            <div class="d-flex flex-column">
+                                <div class="tyre-logo-wrapper">
+                                    <img src="https://logowik.com/content/uploads/images/apollo-tyres-old2315.logowik.com.webp"
+                                        class="w-100 object-fit-contain" alt="Card Image">
+                                </div>
+                                <small class="text-uppercase ps-2 fw-medium">Amazer 4G Life</small>
+                                <small class="text-secondary ps-2 mt-0 small-text">145/80 R12</small>
+                            </div>
+                        </div>
+
+                        <div class="d-flex w-100 justify-content-between">
+                            <!-- Reviews & Price -->
+                            <div class="mb-2 ps-2">
+                                <div class="d-flex mt-3">
+                                    <p class="badge product-card-badge rounded-1 px-2"><i class="fa-solid fa-star"></i>
+                                        4</p>
+                                    <small class="text-secondary ms-1 small-text">320 Reviews</small>
+                                </div>
+                                <div class="">
+                                    <h4 class="fs-6">₹ 3,136</h4>
+                                    <p class="offer-text">Offer Available</p>
+                                </div>
+                                <small class="text-secondary fw-medium small-text">Tube Type</small>
+                            </div>
+                            <!-- Tyre Image -->
+                            <div class="w-50 position-relative">
+                                <div class="w-25 tyre-img-wrapper">
+                                    <img src="https://cdn.tyreplex.net/uploads/images/tyre_model/original/apollo/amazer-4g-life/img_main.png?v=2385909&tr=w-178,q-78,q-60"
+                                        class="object-fit-cover" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 1 -->
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4">
+                    <div class="card h-100 overflow-hidden border porduct-card-hover">
+                        <div>
+                            <!-- Badge -->
+                            <div class="product-card-badge-wrapper">
+                                <small class="badge text-end rounded-0 m-0 bg-warning text-dark fw-light"> <i
+                                        class="fa-solid fa-shield"></i> 5 Year
+                                    Warranty</small>
+                            </div>
+                            <!-- Logo and Detail -->
+                            <div class="d-flex flex-column">
+                                <div class="tyre-logo-wrapper">
+                                    <img src="https://logowik.com/content/uploads/images/apollo-tyres-old2315.logowik.com.webp"
+                                        class="w-100 object-fit-contain" alt="Card Image">
+                                </div>
+                                <small class="text-uppercase ps-2 fw-medium">Amazer 4G Life</small>
+                                <small class="text-secondary ps-2 mt-0 small-text">145/80 R12</small>
+                            </div>
+                        </div>
+
+                        <div class="d-flex w-100 justify-content-between">
+                            <!-- Reviews & Price -->
+                            <div class="mb-2 ps-2">
+                                <div class="d-flex mt-3">
+                                    <p class="badge product-card-badge rounded-1 px-2"><i class="fa-solid fa-star"></i>
+                                        4</p>
+                                    <small class="text-secondary ms-1 small-text">320 Reviews</small>
+                                </div>
+                                <div class="">
+                                    <h4 class="fs-6">₹ 3,136</h4>
+                                    <p class="offer-text">Offer Available</p>
+                                </div>
+                                <small class="text-secondary fw-medium small-text">Tube Type</small>
+                            </div>
+                            <!-- Tyre Image -->
+                            <div class="w-50 position-relative">
+                                <div class="w-25 tyre-img-wrapper">
+                                    <img src="https://cdn.tyreplex.net/uploads/images/tyre_model/original/apollo/amazer-4g-life/img_main.png?v=2385909&tr=w-178,q-78,q-60"
+                                        class="object-fit-cover" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 1 -->
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4">
+                    <div class="card h-100 overflow-hidden border porduct-card-hover">
+                        <div>
+                            <!-- Badge -->
+                            <div class="product-card-badge-wrapper">
+                                <small class="badge text-end rounded-0 m-0 bg-warning text-dark fw-light"> <i
+                                        class="fa-solid fa-shield"></i> 5 Year
+                                    Warranty</small>
+                            </div>
+                            <!-- Logo and Detail -->
+                            <div class="d-flex flex-column">
+                                <div class="tyre-logo-wrapper">
+                                    <img src="https://logowik.com/content/uploads/images/apollo-tyres-old2315.logowik.com.webp"
+                                        class="w-100 object-fit-contain" alt="Card Image">
+                                </div>
+                                <small class="text-uppercase ps-2 fw-medium">Amazer 4G Life</small>
+                                <small class="text-secondary ps-2 mt-0 small-text">145/80 R12</small>
+                            </div>
+                        </div>
+
+                        <div class="d-flex w-100 justify-content-between">
+                            <!-- Reviews & Price -->
+                            <div class="mb-2 ps-2">
+                                <div class="d-flex mt-3">
+                                    <p class="badge product-card-badge rounded-1 px-2"><i class="fa-solid fa-star"></i>
+                                        4</p>
+                                    <small class="text-secondary ms-1 small-text">320 Reviews</small>
+                                </div>
+                                <div class="">
+                                    <h4 class="fs-6">₹ 3,136</h4>
+                                    <p class="offer-text">Offer Available</p>
+                                </div>
+                                <small class="text-secondary fw-medium small-text">Tube Type</small>
+                            </div>
+                            <!-- Tyre Image -->
+                            <div class="w-50 position-relative">
+                                <div class="w-25 tyre-img-wrapper">
+                                    <img src="https://cdn.tyreplex.net/uploads/images/tyre_model/original/apollo/amazer-4g-life/img_main.png?v=2385909&tr=w-178,q-78,q-60"
+                                        class="object-fit-cover" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- View More Button -->
+            <div class="text-center">
+                <button type="button" class="btn btn-outline-secondary">View More <i class="fa-solid fa-angle-down"></i></button>
+            </div>
+        </div>
+
+        <div></div>
+
+        <!-- Services Section -->
+        <div class="container mt-4 border shadow-sm bg-white rounded p-3">
+            <h4 class="fw-semibold fs-6">Services offered by this dealer</h4>
+
+            <div class="scrollable-cards p-0 mt-3">
+                <div class="card service-card shadow-sm border border-1">
+                    <img src="https://cdn.tyreplex.net/images/wheel-alignment-bal.png?tr=w-100"
+                        class="card-img-top object-fit-contain p-2" alt="Image 1">
+                    <h2 class="card-title text-center text-uppercase">Wheel Balancing</h2>
+                    <div>
+                        <button type="btn" class="btn btn-danger rounded-1">Book Now</button>
+                    </div>
+                </div>
+                <div class="card service-card shadow-sm border border-1">
+                    <img src="https://cdn.tyreplex.net/images/wheel-alignment.png?tr=w-100"
+                        class="card-img-top object-fit-contain p-2" alt="Image 2">
+                    <h2 class="card-title text-center text-uppercase">Wheel Alignment</h2>
+                    <div>
+                        <button type="btn" class="btn btn-danger rounded-1">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Payment Mode Section -->
+        <div class="container border  mt-4 bg-white rounded shadow-sm">
+            <h4 class="fw-semibold fs-6 mt-3">Pyment Mode</h4>
+            <div class="d-flex flex-wrap">
+                <ul class="list-unstyled">
+                    <li>
+                        <i class="fa-solid fa-check text-success me-1"></i>
+                        <small class="fw-medium">Deposit to Account</small>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-check text-success me-1"></i>
+                        <small class="fw-medium">Credit Card/Debit Card</small>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-check text-success me-1"></i>
+                        <small class="fw-medium">Wallets (PayTM/PhonePe/Amazone etc.) </small>
+                    </li>
+                </ul>
+                <ul class="list-unstyled ms-md-5 ms-sm-0">
+                    <li>
+                        <i class="fa-solid fa-check text-success me-1"></i>
+                        <small class="fw-medium">Net Banking</small>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-check text-success me-1"></i>
+                        <small class="fw-medium">UPI</small>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- Footer -->
+        <footer class="bg-light border-start border-end border-bottom mt-4 rounded">
+            <!-- Query Section / Ask your question Sectionn -->
+            <div class="query-section py-3 rounded-top rounded-bottom-0 shadow-sm border">
+                <div class="d-flex justify-content-between px-2">
+                    <div class="w-75">
+                        <h4 class="fs-6 ">Have a question about Tyres?</h4>
+                        <p class="text-secondary">Get an answer in 24 hours from our experts.</p>
+                    </div>
+                    <div class="w-25">
+                        <img src="https://cdn.tyreplex.net/themes/moonlight/images/haveQuestion-bg.png?v=600&tr=q-60"
+                            class="calling-img" alt="query-calling-image">
+                    </div>
+                </div>
+
+                <div class="px-2">
+                    <div class="input-group search-wrapper bg-white">
+                        <input type="text" class="form-control border-warning border-end-0 search-input"
+                            placeholder="Ask or search your question..." aria-label="Search" />
+                        <button class="btn btn-warning " type="button">Search</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Footer -->
+            <div class="container pt-4">
+                <div class="row">
+                    <!-- Section 1 -->
+                    <div class="col-12 col-md-6 col-lg-3 mb-4 text-start">
+                        <h5>About Us</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque.</p>
+                    </div>
+                    <!-- Section 2 -->
+                    <div class="col-12 col-md-6 col-lg-3 mb-4 text-start">
+                        <h5>Quick Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-dark text-decoration-none">Home</a></li>
+                            <li><a href="#" class="text-dark text-decoration-none">Services</a></li>
+                            <li><a href="#" class="text-dark text-decoration-none">Contact</a></li>
+                            <li><a href="#" class="text-dark text-decoration-none">Privacy Policy</a></li>
+                            <li><a href="#" class="text-dark text-decoration-none">Shiping & Return Policy</a></li>
+                        </ul>
+                    </div>
+                    <!-- Section 3 -->
+                    <div class="col-12 col-md-6 col-lg-3 mb-4 text-start">
+                        <h5>Contact Us</h5>
+                        <address>
+                            PLOT NUMBER-09,<br>
+                            GROUND FLOOR CISF CAMPUS ROAD,<br>
+                            AHINSA KHAND-02 INDIRAPURAM,<br>
+                            Ghaziabad, Uttar Pradesh, 201014,<br>
+                            Phone: (123) 456-7890<br>
+                            Email: <a href="mailto:info@example.com"
+                                class="text-light text-decoration-none">info@example.com</a>
+                        </address>
+                    </div>
+                    <!-- Section 4 -->
+                    <div class="col-12 col-md-6 col-lg-3 mb-4 text-start">
+                        <h5>Follow Us</h5>
+                        <div>
+                            <a href="#" class="text-dark me-2"><i class="fab fa-facebook fa-2x"></i></a>
+                            <a href="#" class="text-dark me-2"><i class="fab fa-twitter fa-2x"></i></a>
+                            <a href="#" class="text-dark me-2"><i class="fab fa-instagram fa-2x"></i></a>
+                            <a href="#" class="text-dark"><i class="fab fa-linkedin fa-2x"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-12 text-secondary text-center py-3 rounded-bottom border-top">
+                        ©2024 TyrePlex Technologies & Commerce Pvt. Ltd. All Rights Reserved.
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+
+
+
+
+
+
+    <!-- Bootstrap JS (Popper.js included) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <!-- Fontawsome  -->
+    <script src="https://kit.fontawesome.com/518fc3c40b.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,199 @@
+
+body {
+    padding-top: 70px;
+}
+
+/* Hero Section */
+.star-yellow {
+    color: #FFEF00;
+    filter: drop-shadow(.5px .5px .5px #000000);
+}
+
+.underline-text {
+    text-decoration: underline;
+}
+
+.button-hover:hover {
+    background-color: red;
+    transition: background-color 0.3s ease;
+    color: white;
+}
+
+.carousel-relative {
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+.carousel-btn-center {
+    position: absolute;
+    top: 50%;
+}
+
+.review-user-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+}
+
+/* Brand Card Section */
+.card-carousel {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.brand-card {
+    display: inline-block;
+    width: 200px;
+    margin-right: 15px;
+}
+
+.scrollable-cards {
+    display: flex;
+    overflow: scroll;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 15px;
+    padding: 20px;
+    scrollbar-width: thin;
+    scrollbar-color: #888 transparent;
+}
+
+.scrollable-cards::-webkit-scrollbar {
+    height: 8px;
+    background: transparent;
+}
+
+.scrollable-cards::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 4px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+}
+
+.scrollable-cards:hover::-webkit-scrollbar-thumb {
+    background-color: #555;
+}
+
+.scrollable-cards::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+.brand-card {
+    flex: 0 0 auto;
+    width: 150px;
+}
+
+.brand-card>div>h2 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card-img-top {
+    height: 100px;
+    object-fit: cover;
+}
+
+/* Product Grid  */
+.porduct-card-hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.porduct-card-hover:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.product-card-badge-wrapper {
+    text-align: end;
+    margin-top: -3px;
+    overflow: hidden;
+}
+
+.product-card-badge {
+    background-color: rgb(133, 216, 9);
+    font-size: 10px;
+}
+
+.tyre-logo-wrapper {
+    width: 100px;
+    height: 60px;
+}
+
+.offer-text {
+    font-size: 10px;
+    color: rgb(133, 216, 9);
+}
+
+.tyre-img-wrapper {
+    width: 100px;
+    height: 120px;
+    position: absolute;
+    right: 60px;
+}
+
+.small-text {
+    font-size: 12px;
+}
+
+/* Service Section */
+.service-card {
+    width: 250px;
+    height: 200px;
+}
+
+.service-card>img {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+
+.service-card>h2 {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.service-card>div {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.service-card>div>button {
+    font-size: 14px;
+    margin: auto;
+}
+
+/* Query Section */
+.query-section {
+    background-color: #FFEAAA;
+}
+
+.calling-img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.search-wrapper {
+    width: 20rem;
+}
+
+.search-input {
+    border: 2px solid transparent;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: none;
+}
+
+.search-input:focus {
+    border-color: transparent;
+    box-shadow: 0 0 5px rgb(215, 215, 0);
+    outline: none;
+}
